@@ -9,6 +9,12 @@
 	    padding-left: 50px;
 	    padding-right: 50px;max-width: 100%;
 	}
+    .inner {
+	position: relative;
+	max-width: 60%;
+	padding: 20px 10px;
+	margin: 0 auto;
+    }
 </style>
 
 <p align="center" style="font-size: 1.5em; margin-bottom: 0.1em;">Airplane Accident Samples</p>

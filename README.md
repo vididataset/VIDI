@@ -39,16 +39,23 @@ The training parameters used in the experiments are listed in table.
 | ViT on VIDI | SGD | BCE with Logits | 0.25 | ReduceLROnPlateau | 1 |  
 
 ## Benchmark Results
+
+Top-1 and Top-5 accuracies (%) of different models on the datasets. 
+
+*Using multiple frames. In the rest of the experiments, a single frame is used. 
+
+†Result was published in Incidents Dataset
+
 <div align="center">
 
 | Architecture      | Dataset | Top-1 Acc | Top-5 Acc   |
 | ----------- | ----------- | ----------- | ----------- |
-| ResNet-18 | Incidents Dataset | 77.30 |  95.90 | 
+| ResNet-18† | Incidents Dataset | 77.30 |  95.90 | 
 | ViT | Incidents Dataset | 78.50 | 96.33  |  
-| TimeSformer | Incidents Dataset | 81.47 | 96.95  | 
+| TimeSformer | Incidents Dataset | **81.47** | **96.95**  | 
 | ViT | VIDI | 61.78  | 86.78 |
 | TimeSformer | VIDI | 67.37 | 90.59  |
-| TimeSformer | VIDI | 76.56  | 96.51 |
+| TimeSformer | VIDI* | **76.56**  | **96.51** |
 
 </div>
 
@@ -68,11 +75,5 @@ Finally, we have calculated the prediction accuracy per class as shown in figure
 
 ## How to Download Videos
 
-Clone repo and enter directory
-  > git clone https://github.com/vididataset/VIDI.git
-  
-Execute following code:
-  > python download.py path/to/csv /path/to/location/
-
-
+This will be announced soon.
 

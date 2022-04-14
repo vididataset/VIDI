@@ -1,6 +1,6 @@
-# VIDI
+# VIDI: A Video Dataset of Incidents
 
-We present a video dataset --- Video Dataset of Incidents, VIDI --- that contains 4,534 video clips corresponding to 43 incident categories. This is an official VIDI repository. In this repository, we provide the code to download our dataset and additional materials for our results.
+We present a video dataset --- Video Dataset of Incidents, VIDI --- that contains 4,534 video clips corresponding to 43 incident categories. This is the official VIDI repository. In this repository, we provide the code to download our dataset and additional materials for our results.
 
 Samples from dataset can be found here: https://vididataset.github.io/VIDI/
 
@@ -63,7 +63,7 @@ Top-1 and Top-5 accuracies (%) of different models on the datasets.
 
 We further analyzed the wrong predictions on the VIDI test set. Some sample frames from wrong predictions can be seen in figure. As can be observed, in some cases, the inputs are visually very similar to the samples of the predicted classes. 
 
-![](https://i.imgur.com/ZCYooNh.png)
+![](https://i.imgur.com/dpgoWQj.png)
 
 In figure, we showed the false prediction matrix. From this matrix, one can observe which classes are mostly confused by the model. The most misclassified classes are found to be ”ice storm & snow-covered”, ”flooded & storm surge”, and ”landslide & rockslide rockfall”
 
@@ -77,3 +77,6 @@ Finally, we have calculated the prediction accuracy per class as shown in figure
 
 This will be announced soon.
 
+## Reference
+
+This study is under review for IVMSP 2022.

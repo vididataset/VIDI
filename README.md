@@ -75,8 +75,14 @@ Finally, we have calculated the prediction accuracy per class as shown in figure
 
 ## How to Download Videos
 
-This will be announced soon.
+Clone repo and enter directory
+  > git clone https://github.com/vididataset/VIDI.git
+  > pip install --upgrade youtube-dl
+  
+Execute following code:
+  > python download.py path/to/csv /path/to/location/
+
 
 ## Reference
 
-This study is under review for IVMSP 2022.
+This study is accepted for IVMSP 2022.

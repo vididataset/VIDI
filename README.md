@@ -77,6 +77,7 @@ Finally, we have calculated the prediction accuracy per class as shown in figure
 
 Clone repo and enter directory
   > git clone https://github.com/vididataset/VIDI.git
+  > 
   > pip install --upgrade youtube-dl
   
 Execute following code:

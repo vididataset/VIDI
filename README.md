@@ -86,7 +86,7 @@ Execute following code:
 
 ## Reference
 
-This study is accepted for IVMSP 2022.
+This study is accepted for IVMSP 2022. Here is the link for ArXiv: https://arxiv.org/abs/2205.13277
 
 > Sesver D., Gençoglu A. E., Yıldız Ç. E., Gunindi Z., Habibi F., Yazıcı Z. A., Ekenel H. K. VIDI: A Video Dataset of Incidents. 2022 IEEE 14th Image, Video, and Multidimensional Signal Processing Workshop (IVMSP 2022).
 
